@@ -10,13 +10,13 @@ class Bot
         case message
         when Telegram::Bot::Types::Message
           case message.text
-          when '/site'
+          when '/site', '/site@onebitcode_bot'
             bot.api.send_message(chat_id: message.chat.id, 
               text: "<b>Site oficial OneBitCode 🤘</b>\nhttps://onebitcode.com/", parse_mode: "HTML")
-          when '/instagram'
+          when '/instagram', 'instagram@onebitcode_bot'
             bot.api.send_message(chat_id: message.chat.id, 
               text: "<b>Instagram OneBitCode 🤘 </b>\nNovos posts irados todos dias!\nhttps://www.instagram.com/onebitcode/", parse_mode: "HTML")
-          when '/youtube'
+          when '/youtube', '/youtube@onebitcode_bot'
             bot.api.send_message(chat_id: message.chat.id, 
               text: "<b>OneBitCode está no Youtube também 🤘</b>\n" + 
               "<a href='https://www.youtube.com/channel/UC44Mzz2-5TpyfklUCQ5NuxQ'><b>Acesse o canal OneBitCode</b></a>\n" +
@@ -24,7 +24,7 @@ class Bot
               "👉 <a href='https://www.youtube.com/watch?v=_J-c5yAugpU&list=PLdDT8if5attGp7S63lMS-Vj6qgpvmnTvi'>OneBitCode HandsOn</a>\n" +
               "👉 <a href='https://www.youtube.com/watch?v=EqOoElCjpNI&list=PLdDT8if5attHadvt0bVyW6TaQvD4c64xn'>API Rails Completa</a>", 
               parse_mode: "HTML", disable_web_page_preview: true)
-          when '/meme'
+          when '/meme', '/meme@onebitcode_bot'
             meme = Dir["memes/*"].sample
             while lastests_memes.include? meme
               meme = Dir["memes/*"].sample
@@ -39,11 +39,11 @@ class Bot
             if lastests_memes.length == 20
               lastests_memes.slice!(0..9)
             end
-          when '/chuck'
+          when '/chuck', '/chuck@@onebitcode_bot'
             chuck = ChuckNorris.new.get_joke
             bot.api.send_message(chat_id: message.chat.id, 
               text: "<b>Chuck Norris Joke:</b> #{chuck}", parse_mode: "HTML")
-          when '/joke'
+          when '/joke', '/joke@@onebitcode_bot'
             joke = Joke.new.get_joke
             bot.api.send_message(chat_id: message.chat.id, 
               text: "<b>- #{joke[0]}</b>\n\n- #{joke[1]}", parse_mode: "HTML")
