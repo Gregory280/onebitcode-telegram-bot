@@ -1,6 +1,6 @@
-# onebitcode-telegram-bot
 [<img src="https://img.shields.io/badge/Ruby-2.7.1-red">]()
 [<img src="https://img.shields.io/badge/Gem-telegram/bot-blue">](https://github.com/atipugin/telegram-bot-ruby)<br>
+# onebitcode-telegram-bot
 This is a studies purpose telegram bot for the OneBitCode telegram group written with <b>ruby</b> using the Telegram bot, Chuck Norris and Joke API's.
 ### Commands
 ``/site`` return the onebitcode website.<br>
