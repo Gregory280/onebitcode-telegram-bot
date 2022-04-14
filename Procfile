@@ -1,1 +1,1 @@
-worker: bundle exec ruby bin/onebticode_bot.rb
+worker: bundle exec ruby bin/main_bot.rb
