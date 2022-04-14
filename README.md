@@ -1,3 +1,5 @@
+[<img src="https://img.shields.io/badge/Ruby-2.7.1-red">]()
+[<img src="https://img.shields.io/badge/Gem-telegram/bot-blue">](https://github.com/atipugin/telegram-bot-ruby)<br>
 # onebitcode-telegram-bot
 This is a studies purpose telegram bot for the OneBitCode telegram group written with <b>ruby</b> using the Telegram bot, Chuck Norris and Joke API's.
 ### Commands
@@ -13,3 +15,6 @@ The application was deployed using Heroku free tier.
 
 ### How to make your own ruby telegram bot
 Soon
+
+[<img src="https://img.shields.io/badge/Telegram-@gnm280-blue">](https://t.me/gnm280)
+[<img src="https://img.shields.io/badge/LinkedIn-Gregory Mayer-green">](https://www.linkedin.com/in/gregory-nicholas-mayer-373742232/)
