@@ -1,10 +1,14 @@
 require 'telegram/bot'
+require 'json'
 require_relative 'chuck_norris.rb'
 
 class Bot
   def initialize
     telegram_bot_token = ENV['TELEGRAM_BOT_ONEBITCODE']
     lastests_memes = []
+    lastests_quizzes = []
+    quizzes = File.read('quiz.json')
+    quizzes_parsed = JSON.parse(quizzes)
     Telegram::Bot::Client.run(telegram_bot_token) do |bot|
       bot.listen do |message|
         case message
@@ -51,6 +55,32 @@ class Bot
             else
               bot.api.send_message(chat_id: message.chat.id, 
                 text: "#{joke}")
+            end
+          when '/quiz'
+            quiz = quizzes_parsed.sample
+            while lastests_quizzes.include? quiz
+              quiz = quizzes_parsed.sample
+            end
+            lastests_quizzes << quiz
+            if quiz.key?('explanation')
+              bot.api.send_poll(chat_id: message.chat.id, 
+                question: quiz['question'], 
+                options: quiz['options'], 
+                correct_option_id: quiz['correct_option_id'],
+                explanation: quiz['explanation'],
+                explanation_parse_mode: "HTML",
+                is_anonymous: true,
+                type: 'quiz')
+            else
+              bot.api.send_poll(chat_id: message.chat.id, 
+                question: quiz['question'], 
+                options: quiz['options'], 
+                correct_option_id: quiz['correct_option_id'],
+                is_anonymous: true,
+                type: 'quiz')
+            end
+            if lastests_quizzes.length == 30
+              lastests_quizzes.slice!(0..15)
             end
           end
         end

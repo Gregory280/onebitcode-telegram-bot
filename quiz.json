@@ -1,0 +1,469 @@
+[
+  {
+    "id": 1,
+    "question": "Which operator returns true if the two compared values are not equal?",
+    "options": [
+      "<>",
+      "~",
+      "==!",
+      "!=="
+    ],
+    "correct_option_id": 3,
+    "explanation": "<a href='https://www.w3schools.com/js/js_operators.asp'>Reference Javascript Comparison Operators</a>"
+  },
+  {
+    "id": 2,
+    "question": "How is a forEach statement different from a for statement?",
+    "options": [
+      "Only a for statement uses a callback function.",
+      "A for statement is generic, but a forEach statement can be used only with an array.",
+      "Only a forEach statement lets you specify your own iterator.",
+      "A forEach statement is generic, but a for statement can be used only with an array."
+    ],
+    "correct_option_id": 1,
+    "explanation": "<a href='https://www.geeksforgeeks.org/difference-between-foreach-and-for-loop-in-javascript/'>Reference Differences between forEach and for loop</a>"
+  },
+  {
+    "id": 3,
+    "question": "Which statement is the correct way to create a variable called rate and assign it the value 100?",
+    "options": [
+      "let rate = 100;",
+      "let 100 = rate;",
+      "100 = let rate;",
+      "rate = 100;"
+    ],
+    "correct_option_id": 0,
+    "explanation": "<a href='https://www.w3schools.com/js/js_operators.asp'>Reference Javascript Assignment operators</a>"
+  },
+  {
+    "id": 4,
+    "question": "How does a function create a closure?",
+    "options": [
+      "It reloads the document whenever the value changes.",
+      "It returns a reference to a variable in its parent scope.",
+      "It completes execution without returning.",
+      "It copies a local variable to the global scope."
+    ],
+    "correct_option_id": 1,
+    "explanation": "<a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures'>Reference</a>"
+  },
+  {
+    "id": 5,
+    "question": "You need to match a time value such as 12:00:32. Which of the following regular expressions would work for your code?",
+    "options": [
+      "/[0-9]{2,}:[0-9]{2,}:[0-9]{2,}/",
+      "\/\\d\\d:\\d\\d:\\d\\d\/",
+      "/[0-9]+:[0-9]+:[0-9]+/",
+      "/ : : /"
+    ],
+    "correct_option_id": 1,
+    "explanation": "No repositório tem uma nota explicando o porque da opção correta. Procure por linkedin-skill-assessments-quizzes no github"
+  },
+  {
+    "id": 6,
+    "question": "What is the result of running this statement?\n👇🏼👇🏼👇🏼👇🏼\nconsole.log(typeof 42);",
+    "options": [
+      "'float'",
+      "'value'",
+      "'number'",
+      "'integer'"
+    ],
+    "correct_option_id": 2,
+    "explanation": "<a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures'>Reference accessing javascript arrays</a>"
+  },
+  {
+    "id": 7,
+    "question": "Which property references the DOM object that dispatched an event?",
+    "options": [
+      "self",
+      "object",
+      "target",
+      "source"
+    ],
+    "correct_option_id": 2,
+    "explanation": "<a href='https://www.w3schools.com/jsref/dom_obj_event.asp'>Reference DOM events</a>"
+  },
+  {
+    "id": 8,
+    "question": "Which method converts JSON data to a JavaScript object?",
+    "options": [
+      "JSON.fromString();",
+      "JSON.parse()",
+      "JSON.toObject()",
+      "JSON.stringify()"
+    ],
+    "correct_option_id": 1,
+    "explanation": "<a href='https://www.w3schools.com/js/js_json_parse.asp'>Reference convert json to javascript object</a>"
+  },
+  {
+    "id": 9,
+    "question": "When would you use a conditional statement?",
+    "options": [
+      "When you want to reuse a set of statements multiple times.",
+      "When you want your code to choose between multiple options.",
+      "When you want to group data together.",
+      "When you want to loop through a group of statement."
+    ],
+    "correct_option_id": 1,
+    "explanation": "<a href='https://www.javascript.com/learn/conditionals'>Reference javascript conditionals</a>"
+  },
+  {
+    "id": 10,
+    "question": "What would be the result in the console of running this code?\n👇🏼👇🏼👇🏼👇🏼\nfor (var i = 0; i < 5; i++) { console.log(i); }",
+    "options": [
+      "12345",
+      "1234",
+      "01234",
+      "012345"
+    ],
+    "correct_option_id": 2,
+    "explanation": "<a href='https://www.w3schools.com/js/js_loop_for.asp'>Reference javascript for loops</a>"
+  },
+  {
+    "id": 11,
+    "question": "Which Object method returns an iterable that can be used to iterate over the properties of an object?",
+    "options": [
+      "Object.get()",
+      "Object.loop()",
+      "Object.each()",
+      "Object.keys()"
+    ],
+    "correct_option_id": 3,
+    "explanation": "<a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object#static_methods'>Reference javascript object static methods</a>"
+  },
+  {
+    "id": 12,
+    "question": "How would you reference the text 'avenue' in the code shown?\n👇🏼👇🏼👇🏼👇🏼\nlet roadTypes = ['street', 'road', 'avenue', 'circle'];",
+    "options": [
+      "roadTypes.2",
+      "roadTypes[3]",
+      "roadTypes.3",
+      "roadTypes[2]"
+    ],
+    "correct_option_id": 3,
+    "explanation": "<a href='https://www.w3schools.com/js/js_arrays.asp'>Reference accessing javascript arrays</a>"
+  },
+  {
+    "id": 13,
+    "question": "Which Object method returns an iterable that can be used to iterate over the properties of an object?",
+    "options": [
+      "Object.get()",
+      "Object.loop()",
+      "Object.each()",
+      "Object.keys()"
+    ],
+    "correct_option_id": 3,
+    "explanation": "<a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object#static_methods'>Reference javascript object static methods</a>"
+  },
+  {
+    "id": 14,
+    "question": "What is one difference between collections created with Map and collections created with Object?",
+    "options": [
+      "You can iterate over values in a Map in their insertion order.",
+      "You can count the records in a Map with a single method call.",
+      "Keys in Maps can be strings.",
+      "You can access values in a Map without iterating over the whole collection."
+    ],
+    "correct_option_id": 1,
+    "explanation": "<p><b>Explanation: </b>Map.prototype.size returns the number of elements in a Map, whereas Object does not have a built-in method to return its size.</p>"
+  },
+  {
+    "id": 15,
+    "question": "0 && hi",
+    "options": [
+      "ReferenceError",
+      "True",
+      "0",
+      "false"
+    ],
+    "correct_option_id": 2,
+    "explanation": "<a href='https://ntgard.medium.com/https-medium-com-ntgard-boolean-logic-in-javascript-part-1-3371af974f19'>Reference boolean logic</a>"
+  },
+  {
+    "id": 16,
+    "question": "Which of the following operators can be used to do a short-circuit evaluation?",
+    "options": [
+      "\\++",
+      "\\--",
+      "\\==",
+      "\\|\\|"
+    ],
+    "correct_option_id": 3,
+    "explanation": "<a> href='https://codeburst.io/javascript-what-is-short-circuit-evaluation-ff22b2f5608c'>Reference short circuit javascript</a>"
+  },
+  {
+    "id": 17,
+    "question": "Which statement sets the Person constructor as the parent of the Student constructor in the prototype chain?",
+    "options": [
+      "Student.parent = Person;",
+      "Student.prototype = new Person();",
+      "Student.prototype = Person;",
+      "Student.prototype = Person();"
+    ],
+    "correct_option_id": 1,
+    "explanation": "<a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain'>Reference prototype object js</a>"
+  },
+  {
+    "id": 18,
+    "question": "Why would you include a 'use strict' statement in a JavaScript file?",
+    "options": [
+      "to tell parsers to interpret your JavaScript syntax loosely",
+      "to tell parsers to enforce all JavaScript syntax rules when processing your code",
+      "to instruct the browser to automatically fix any errors it finds in the code",
+      "to enable ES6 features in your code"
+    ],
+    "correct_option_id": 1,
+    "explanation": "<a href='https://www.w3schools.com/js/js_strict.asp'>Reference what is use strict in js</a>"
+  },
+  {
+    "id": 19,
+    "question": "Which Variable-defining keyword allows its variable to be accessed (as undefined) before the line that defines it?",
+    "options": [
+      "all of them",
+      "const",
+      "var",
+      "let"
+    ],
+    "correct_option_id": 2,
+    "explanation": "<a href='https://www.freecodecamp.org/news/var-let-and-const-whats-the-difference/'>Reference var vs let vs const in js</a>"
+  },
+  {
+    "id": 20,
+    "question": "Which of the following values is not a Boolean false?",
+    "options": [
+      "Boolean(0)",
+      "Boolean('')",
+      "Boolean(NaN)",
+      "Boolean('false')"
+    ],
+    "correct_option_id": 3,
+    "explanation": "<a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean'>Reference boolean of a string</a>"
+  },
+  {
+    "id": 21,
+    "question": "Which of the following is not a keyword in JavaScript?",
+    "options": [
+      "this",
+      "catch",
+      "function",
+      "array"
+    ],
+    "correct_option_id": 3
+  },
+  {
+    "id": 22,
+    "question": "Which variable is an implicit parameter for every function in JavaScript?",
+    "options": [
+      "Arguments",
+      "args",
+      "argsArray",
+      "argumentsList"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "id": 23,
+    "question": "Why is it usually better to work with Objects instead of Arrays to store a collection of records?",
+    "options": [
+      "Objects are more efficient in terms of storage.",
+      "Adding a record to an object is significantly faster than pushing a record into an array.",
+      "Most operations involve looking up a record, and objects can do that better than arrays.",
+      "Working with objects makes the code more readable."
+    ],
+    "correct_option_id": 2,
+    "explanation": "Records in an object can be retrieved using their key which can be any given value (e.g. an employee ID, a city name, etc), whereas to retrieve a record from an array we need to know its index."
+  },
+  {
+    "id": 24,
+    "question": "Which statement is true about the 'async' attribute for the HTML script tag?",
+    "options": [
+      "It can be used for both internal and external JavaScript code.",
+      "It can be used only for internal JavaScript code.",
+      "It can be used only for internal or external JavaScript code that exports a promise.",
+      "It can be used only for external JavaScript code."
+    ],
+    "correct_option_id": 3,
+    "explanation": "<a href='https://www.w3schools.com/tags/att_script_async.asp'>Reference async attribute for html</a>"
+  },
+  {
+    "id": 25,
+    "question": "What does the following expression evaluate to?\n👇🏼👇🏼👇🏼👇🏼\n[] == [];",
+    "options": [
+      "True",
+      "undefined",
+      "[]",
+      "False"
+    ],
+    "correct_option_id": 3
+  },
+  {
+    "id": 26,
+    "question": "What type of function can have its execution suspended and then resumed at a later point?",
+    "options": [
+      "Generator function",
+      "Arrow function",
+      "Async/ Await function",
+      "Promise function"
+    ],
+    "correct_option_id": 0,
+    "explanation": "<a href='https://www.guru99.com/node-js-generators-compare-callbacks.html#:~:text=Generators%20are%20function%20executions%20that,resumed%20at%20a%20later%20point.'>Reference what are generators in nodejs</a>"
+  },
+  {
+    "id": 27,
+    "question": "Which statement is true about Functional Programming?",
+    "options": [
+      "Every object in the program has to be a function.",
+      "Code is grouped with the state it modifies",
+      "Date fields and methods are kept in units.",
+      "Side effects are not allowed."
+    ],
+    "correct_option_id": 3,
+    "explanation": "<a href='https://medium.com/javascript-scene/master-the-javascript-interview-what-is-functional-programming-7f218c68b3a0'>Reference functional programming</a>"
+  },
+  {
+    "id": 28,
+    "question": "How many prototype objects are in the chain for the following array?\n👇🏼👇🏼👇🏼👇🏼\nlet arr = [];",
+    "options": [
+      "3",
+      "2",
+      "0",
+      "1"
+    ],
+    "correct_option_id": 1,
+    "explanation": "<a href='https://www.w3schools.com/jsref/jsref_prototype_array.asp'>Reference array prototype</a>"
+  },
+  {
+    "id": 29,
+    "question": "Which keyword is used to create an error?",
+    "options": [
+      "throw",
+      "exception",
+      "catch",
+      "error"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "id": 30,
+    "question": "Which collection object allows unique value to be inserted only once?",
+    "options": [
+      "Object",
+      "Set",
+      "Array",
+      "Map"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "id": 31,
+    "question": "Which choice is an incorrect way to define an arrow function that returns an empty object?",
+    "options": [
+      "=> ({})",
+      "=> {}",
+      "=> { return {};}",
+      "=> (({}))"
+    ],
+    "correct_option_id": 1,
+    "explanation": "<a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions'>Reference arrow functions</a>"
+  },
+  {
+    "id": 32,
+    "question": "Which expression evaluates to true?",
+    "options": [
+      "[3] == [3]",
+      "3 == '3'",
+      "3 != '3'",
+      "3 === '3'"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "id": 33,
+    "question": "Which of these is a valid variable name?",
+    "options": [
+      "5thItem",
+      "firstName",
+      "grand total",
+      "function"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "id": 34,
+    "question": "Which method cancels event default behavior?",
+    "options": [
+      "cancel()",
+      "stop()",
+      "preventDefault()",
+      "prevent()"
+    ],
+    "correct_option_id": 2,
+    "explanation": "<a href='https://developer.mozilla.org/en-US/docs/Web/API/Event/preventDefault'>Reference javascript events</a>"
+  },
+  {
+    "id": 35,
+    "question": "Which method do you use to attach one DOM node to another?",
+    "options": [
+      "attachNode()",
+      "getNode()",
+      "querySelector()",
+      "appendChild()"
+    ],
+    "correct_option_id": 3
+  },
+  {
+    "id": 36,
+    "question": "Which statement is used to skip iteration of the loop?",
+    "options": [
+      "break",
+      "pass",
+      "skip",
+      "continue"
+    ],
+    "correct_option_id": 3
+  },
+  {
+    "id": 37,
+    "question": "Which choice is valid example for an arrow function?",
+    "options": [
+      "(a,b) => c",
+      "a, b => {return c;}",
+      "a, b => c",
+      "{ a, b } => c"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "id": 38,
+    "question": "If you attempt to call a value as a function but the value is not a function, what kind of error would you get?",
+    "options": [
+      "TypeError",
+      "SystemError",
+      "SyntaxError",
+      "LogicError"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "id": 39,
+    "question": "Which method is called automatically when an object is initialized?",
+    "options": [
+      "create()",
+      "new()",
+      "constructor()",
+      "init()"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "id": 40,
+    "question": "Which statement selects all img elements in the DOM tree?",
+    "options": [
+      "Document.querySelector('img')",
+      "Document.querySelectorAll('<img>')",
+      "Document.querySelectorAll('img')",
+      "Document.querySelector('<img>')"
+    ],
+    "correct_option_id": 2
+  }
+]
