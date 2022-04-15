@@ -45,8 +45,13 @@ class Bot
               text: "<b>Chuck Norris Joke:</b> #{chuck}", parse_mode: "HTML")
           when '/joke', '/joke@onebitcode_bot'
             joke = Joke.new.get_joke
-            bot.api.send_message(chat_id: message.chat.id, 
-              text: "<b>- #{joke[0]}</b>\n\n- #{joke[1]}", parse_mode: "HTML")
+            unless joke.class == String
+              bot.api.send_message(chat_id: message.chat.id, 
+                text: "<b>- #{joke[0]}</b>\n\n- #{joke[1]}", parse_mode: "HTML")
+            else
+              bot.api.send_message(chat_id: message.chat.id, 
+                text: "#{joke}")
+            end
           end
         end
       end

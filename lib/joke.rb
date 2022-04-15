@@ -12,9 +12,13 @@ class Joke
     response = Net::HTTP.get(uri)
     result = JSON.parse(response)
   end
-  def get_joke
-    setup = @result['setup']
-    delivery = @result['delivery']
-    return setup, delivery
-  end
+  def get_joke 
+    if @result['error'] == false
+     setup = @result['setup']
+     delivery = @result['delivery']
+     return setup, delivery
+   else
+     return 'Something went wrong...'
+   end
+ end
 end
