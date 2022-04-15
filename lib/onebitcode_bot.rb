@@ -56,7 +56,7 @@ class Bot
               bot.api.send_message(chat_id: message.chat.id, 
                 text: "#{joke}")
             end
-          when '/quiz'
+          when '/quiz', '/quiz@onebitcode_bot'
             quiz = quizzes_parsed.sample
             while lastests_quizzes.include? quiz
               quiz = quizzes_parsed.sample
