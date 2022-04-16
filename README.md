@@ -6,7 +6,7 @@ This is a studies purpose telegram bot for the OneBitCode telegram group written
 ``/site`` return the onebitcode website.<br>
 ``/youtube`` return the onebitcode youtube channel with playlists.<br>
 ``/instagram`` return the onebitcode instagram.<br>
-``/joke`` return a random programming joke from the endpoint ``https://v2.jokeapi.dev/joke/Programming?type=twopart``<br>
+``/joke`` return a random programming joke from the endpoint ``https://v2.jokeapi.dev/joke/Programming?``<br>
 ``/chuck`` return a random Chuck Norris joke from the endpoint ``https://api.chucknorris.io/jokes/random``<br>
 ``/meme`` return a random meme in multiple formats such jpg, jpeg, png, gif, mp4 from the /meme directory.<br>
 ``/quiz`` return a random javascript quiz from the quiz.json.<br>
