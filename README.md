@@ -9,6 +9,9 @@ This is a studies purpose telegram bot for the OneBitCode telegram group written
 ``/joke`` return a random programming joke from the endpoint ``https://v2.jokeapi.dev/joke/Programming?type=twopart``<br>
 ``/chuck`` return a random Chuck Norris joke from the endpoint ``https://api.chucknorris.io/jokes/random``<br>
 ``/meme`` return a random meme in multiple formats such jpg, jpeg, png, gif, mp4 from the /meme directory.<br>
+``/quiz`` return a random javascrip quiz from the quiz.json.<br>
+<br>
+<img src="https://i.imgur.com/SRi3eKw.png">
 
 ### Deploy
 The application was deployed using Heroku free tier.
@@ -16,5 +19,6 @@ The application was deployed using Heroku free tier.
 ### How to make your own ruby telegram bot
 Soon
 
+Made with <3 for the onebitcode telegram group<br><br>
 [<img src="https://img.shields.io/badge/Telegram-@gnm280-blue">](https://t.me/gnm280)
 [<img src="https://img.shields.io/badge/LinkedIn-Gregory Mayer-green">](https://www.linkedin.com/in/gregory-nicholas-mayer-373742232/)
