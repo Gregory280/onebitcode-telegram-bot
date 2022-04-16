@@ -13,8 +13,8 @@ module Quiz
       quiz = QUIZES.sample
     end
     @@lastests_quizes << quiz
-    if @@lastests_quizes.length == 6
-      @@lastests_quizes.slice!(0..2)
+    if @@lastests_quizes.length == 34
+      @@lastests_quizes.slice!(0..17)
     end
     return quiz
   end
