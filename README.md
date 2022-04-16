@@ -20,5 +20,6 @@ The application was deployed using Heroku free tier.
 Soon
 
 Made with <3 <br><br>
+#### Contact
 [<img src="https://img.shields.io/badge/Telegram-@gnm280-blue">](https://t.me/gnm280)
 [<img src="https://img.shields.io/badge/LinkedIn-Gregory Mayer-green">](https://www.linkedin.com/in/gregory-nicholas-mayer-373742232/)
