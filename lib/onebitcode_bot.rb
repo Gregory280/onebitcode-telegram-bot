@@ -48,13 +48,14 @@ class Bot
             bot.api.send_message(chat_id: message.chat.id, 
               text: "<b>Chuck Norris Joke:</b> #{chuck}", parse_mode: "HTML")
           when '/joke', '/joke@onebitcode_bot'
-            joke = Joke.new.get_joke
-            unless joke.class == String
+            joke = Joke.new(['single', 'twopart'].sample)
+            jokes = joke.run
+            if joke.type == 'twopart'
               bot.api.send_message(chat_id: message.chat.id, 
-                text: "<b>- #{joke[0]}</b>\n\n- #{joke[1]}", parse_mode: "HTML")
+                text: "<b>- #{jokes[0]}</b>\n\n- #{jokes[1]}", parse_mode: "HTML")
             else
               bot.api.send_message(chat_id: message.chat.id, 
-                text: "#{joke}")
+                text: "#{jokes[0]}")
             end
           when '/quiz', '/quiz@onebitcode_bot'
             quiz = quizzes_parsed.sample
