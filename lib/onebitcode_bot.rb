@@ -49,7 +49,7 @@ class Bot
               text: "<b>Chuck Norris Joke:</b> #{chuck}", parse_mode: "HTML")
           when '/joke', '/joke@onebitcode_bot'
             jokes = Joke.new(['single', 'twopart'].sample).run
-            if joke.type == 'twopart'
+            if jokes.type == 'twopart'
               bot.api.send_message(chat_id: message.chat.id, 
                 text: "<b>- #{jokes[0]}</b>\n\n- #{jokes[1]}", parse_mode: "HTML")
             else
