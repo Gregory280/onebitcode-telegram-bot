@@ -46,7 +46,7 @@ class Bot
           when '/chuck', '/chuck@onebitcode_bot'
             chuck = ChuckNorris.new.run
             bot.api.send_message(chat_id: message.chat.id, 
-              text: "<b>Chuck Norris Joke:</b> #{chuck}", parse_mode: "HTML")
+              text: "#{chuck}", parse_mode: "HTML")
           when '/joke', '/joke@onebitcode_bot'
             jokes = Joke.new(['single', 'twopart'].sample).run
             if jokes.type == 'twopart'
