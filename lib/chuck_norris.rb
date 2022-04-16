@@ -2,17 +2,23 @@ require 'net/http'
 require 'json'
 
 class ChuckNorris
-  @result = nil
-  def initialize
-    @result = make_request
+  
+  API_ENDPOINT = 'https://api.chucknorris.io/jokes/random'
+
+  def run
+    make_request
+    get_joke
   end
+
+  private 
+
   def make_request
-    url = 'https://api.chucknorris.io/jokes/random'
-    uri = URI(url)
-    response = Net::HTTP.get(uri)
-    result = JSON.parse(response)
+    uri = URI(API_ENDPOINT)
+    response = Net::HTTP.get(uri)  
+    @result = JSON.parse(response)
   end
+
   def get_joke
-    return @result['value']
+    joke = @result['value']
   end
 end

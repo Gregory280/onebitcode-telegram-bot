@@ -44,12 +44,11 @@ class Bot
               lastests_memes.slice!(0..9)
             end
           when '/chuck', '/chuck@onebitcode_bot'
-            chuck = ChuckNorris.new.get_joke
+            chuck = ChuckNorris.new.run
             bot.api.send_message(chat_id: message.chat.id, 
               text: "<b>Chuck Norris Joke:</b> #{chuck}", parse_mode: "HTML")
           when '/joke', '/joke@onebitcode_bot'
-            joke = Joke.new(['single', 'twopart'].sample)
-            jokes = joke.run
+            jokes = Joke.new(['single', 'twopart'].sample).run
             if joke.type == 'twopart'
               bot.api.send_message(chat_id: message.chat.id, 
                 text: "<b>- #{jokes[0]}</b>\n\n- #{jokes[1]}", parse_mode: "HTML")
