@@ -11,7 +11,7 @@ This is a studies purpose telegram bot for the OneBitCode telegram group written
 ``/meme`` return a random meme in multiple formats such jpg, jpeg, png, gif, mp4 from the /meme directory.<br>
 ``/quiz`` return a random javascrip quiz from the quiz.json.<br>
 <br>
-<img src="https://i.imgur.com/SRi3eKw.png">
+<img src="https://i.imgur.com/SRi3eKw.png"> <img src="https://i.imgur.com/lbySua9.png">
 
 ### Deploy
 The application was deployed using Heroku free tier.
