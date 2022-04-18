@@ -10,6 +10,7 @@ This is a studies purpose telegram bot for the OneBitCode telegram group written
 ``/chuck`` return a random Chuck Norris joke from the endpoint ``https://api.chucknorris.io/jokes/random``<br>
 ``/meme`` return a random meme in multiple formats such jpg, jpeg, png, gif, mp4 from the /meme directory.<br>
 ``/quiz`` return a random javascript quiz from the quiz.json.<br>
+``/trivia`` return two true or false quiz about computer science.<br>
 <br>
 <img src="https://i.imgur.com/SRi3eKw.png"> <img src="https://i.imgur.com/lbySua9.png">
 
