@@ -1,13 +1,18 @@
 require 'telegram/bot'
 require 'json'
+
 require_relative 'chuck_norris.rb'
 require_relative 'joke.rb'
+require_relative 'trivia.rb'
 require_relative 'modules/quiz.rb'
 require_relative 'modules/meme.rb'
 
 
 class Bot
   
+  JOKE_TYPES = ['single', 'twopart']
+  TRIVIA_OPTIONS = ['True', 'False']
+
   include Quiz
   include Meme
 
@@ -54,7 +59,7 @@ class Bot
               text: "#{chuck}", parse_mode: "HTML")
           
           when '/joke', '/joke@onebitcode_bot'
-            joke = Joke.new(['single', 'twopart'].sample)
+            joke = Joke.new(JOKE_TYPES.sample)
             jokes = joke.run
             if joke.type == 'twopart'
               bot.api.send_message(chat_id: message.chat.id, 
@@ -72,7 +77,7 @@ class Bot
                 options: quiz['options'], 
                 correct_option_id: quiz['correct_option_id'],
                 explanation: quiz['explanation'],
-                explanation_parse_mode: "HTML",
+                parse_mode: "HTML",
                 is_anonymous: true,
                 type: 'quiz')
             else
@@ -84,6 +89,16 @@ class Bot
                 type: 'quiz')
             end
           
+          when '/trivia', 'trivia@onebitcode_bot'
+            bot.api.send_message(chat_id: message.chat.id,
+              text: "🧠 <b>It's Trivia Time!</b> 🧠", parse_mode: "HTML")
+            trivias = Trivia.new.run
+            trivias.each do |trivia|
+              bot.api.send_poll(chat_id: message.chat.id,
+                question: "#{trivia['question']}\n(difficulty: #{trivia['difficulty']})",
+                options: TRIVIA_OPTIONS,
+                correct_option_id: TRIVIA_OPTIONS.find_index(trivia['correct_answer']),
+                is_anonymous: false)
           end
         end
       end
