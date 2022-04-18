@@ -1,12 +1,10 @@
 require 'telegram/bot'
-require 'json'
 
 require_relative 'chuck_norris.rb'
 require_relative 'joke.rb'
 require_relative 'trivia.rb'
 require_relative 'modules/quiz.rb'
 require_relative 'modules/meme.rb'
-
 
 class Bot
   
@@ -99,6 +97,7 @@ class Bot
                 options: TRIVIA_OPTIONS,
                 correct_option_id: TRIVIA_OPTIONS.find_index(trivia['correct_answer']),
                 is_anonymous: false)
+            end
           end
         end
       end
