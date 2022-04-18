@@ -6,8 +6,8 @@ This is a studies purpose telegram bot for the OneBitCode telegram group written
 ``/site`` return the onebitcode website.<br>
 ``/youtube`` return the onebitcode youtube channel with playlists.<br>
 ``/instagram`` return the onebitcode instagram.<br>
-``/joke`` return a random programming joke from the jokeAPI`<br>
-``/chuck`` return a random Chuck Norris joke from the ChuckNorrisAPI<br>
+``/joke`` return a random programming joke from the jokeAPI.<br>
+``/chuck`` return a random Chuck Norris joke from the ChuckNorrisAPI.<br>
 ``/meme`` return a random meme in multiple formats such jpg, jpeg, png, gif, mp4 from the /meme directory.<br>
 ``/quiz`` return a random javascript quiz from the quiz.json.<br>
 ``/trivia`` return two true or false quiz about computer science from the TriviaAPI.<br>
