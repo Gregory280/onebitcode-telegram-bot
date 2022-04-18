@@ -96,7 +96,8 @@ class Bot
                 question: "#{trivia['question']}\n(difficulty: #{trivia['difficulty']})",
                 options: TRIVIA_OPTIONS,
                 correct_option_id: TRIVIA_OPTIONS.find_index(trivia['correct_answer']),
-                is_anonymous: false)
+                is_anonymous: false,
+                type: 'quiz')
             end
           end
         end
