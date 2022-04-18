@@ -87,7 +87,7 @@ class Bot
                 type: 'quiz')
             end
           
-          when '/trivia', 'trivia@onebitcode_bot'
+          when '/trivia', '/trivia@onebitcode_bot'
             bot.api.send_message(chat_id: message.chat.id,
               text: "🧠 <b>It's Trivia Time!</b> 🧠", parse_mode: "HTML")
             trivias = Trivia.new.run
