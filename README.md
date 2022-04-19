@@ -2,7 +2,7 @@
 [<img src="https://img.shields.io/badge/Gem-telegram/bot-blue">](https://github.com/atipugin/telegram-bot-ruby)<br>
 # onebitcode-telegram-bot
 This is a studies purpose telegram bot for the OneBitCode telegram group written with <b>ruby</b>.
-### Commands
+## Commands
 ``/site`` return the onebitcode website.<br>
 ``/youtube`` return the onebitcode youtube channel with playlists.<br>
 ``/instagram`` return the onebitcode instagram.<br>
@@ -14,7 +14,7 @@ This is a studies purpose telegram bot for the OneBitCode telegram group written
 <br>
 <img src="https://i.imgur.com/SRi3eKw.png"> <img src="https://i.imgur.com/lbySua9.png">
 
-### Deploy
+## Deploy
 The application was deployed using Heroku free tier.
 
 ### How to make and deploy your own ruby telegram bot
