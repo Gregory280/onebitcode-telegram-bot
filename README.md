@@ -8,7 +8,7 @@ This is a studies purpose telegram bot for the OneBitCode telegram group written
 ``/instagram`` return the onebitcode instagram.<br>
 ``/joke`` return a random programming joke from the jokeAPI.<br>
 ``/chuck`` return a random Chuck Norris joke from the ChuckNorrisAPI.<br>
-``/meme`` return a random meme in multiple formats such jpg, jpeg, png, gif, mp4 from the /meme directory.<br>
+``/meme`` return a random meme in multiple formats (jpg, jpeg, png, gif, mp4).<br>
 ``/quiz`` return a random javascript quiz from the quiz.json.<br>
 ``/trivia`` return two true or false quiz about computer science from the TriviaAPI.<br>
 <br>
