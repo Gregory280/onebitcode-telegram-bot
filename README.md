@@ -18,7 +18,7 @@ This is a studies purpose telegram bot for the OneBitCode telegram group written
 The application was deployed using Heroku free tier.
 
 ### How to make and deploy your own ruby telegram bot
-Soon
+<b>Check out on medium tutorial</b>👇<br> <a href='https://medium.com/@gregorymayer/telegram-bot-e-ruby-como-fazer-e-publicar-um-bot-que-consome-uma-api-com-ruby-e-heroku-6b3f453bf344'>Telegram Bot e Ruby — Como fazer e publicar um bot que consome uma API com Ruby e Heroku</a>
 
 Made with <3 for the OneBitCode<br><br>
 #### Contact
