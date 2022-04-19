@@ -20,7 +20,9 @@ The application was deployed using Heroku free tier.
 ## How to make and deploy your own ruby telegram bot
 <b>Check out on medium tutorial</b>👇<br> <a href='https://medium.com/@gregorymayer/telegram-bot-e-ruby-como-fazer-e-publicar-um-bot-que-consome-uma-api-com-ruby-e-heroku-6b3f453bf344'>Telegram Bot e Ruby — Como fazer e publicar um bot que consome uma API com Ruby e Heroku</a>
 
-Made with <3 for the OneBitCode<br><br>
+<br>
+Made with <3 for the OneBitCode<br>
+
 #### Contact
 [<img src="https://img.shields.io/badge/Telegram-@gnm280-blue">](https://t.me/gnm280)
 [<img src="https://img.shields.io/badge/LinkedIn-Gregory Mayer-green">](https://www.linkedin.com/in/gregory-nicholas-mayer-373742232/)
