@@ -1,10 +1,7 @@
 require 'telegram/bot'
 
-require_relative 'chuck_norris.rb'
-require_relative 'joke.rb'
-require_relative 'trivia.rb'
-require_relative 'modules/quiz.rb'
-require_relative 'modules/meme.rb'
+%w{chuck_norris.rb joke.rb trivia.rb 
+  modules/quiz.rb modules/meme.rb}.each { |e| require_relative e }
 
 class Bot
   
