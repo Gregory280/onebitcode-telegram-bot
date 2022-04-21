@@ -41,13 +41,14 @@ class Bot
           
           when '/about', '/about@onebitcode_bot'
             bot.api.send_message(chat_id: message.chat.id,
-              text: "Bot made by <b>Gregory Mayer<b/> for the OneBitCode Community 🤖\n\n👉 <a href='https://github.com/Gregory280/onebitcode-telegram-bot'>Github Repository</a>\n",
+              text: "Bot made by <b>Gregory Mayer<b/> for the OneBitCode Community 🤖\n\n👉 <a href='https://github.com/Gregory280/onebitcode-telegram-bot'>Github Repository</a>",
               parse_mode: "HTML",
               disable_web_page_preview: true)
           
           when '/discord', '/discord@onebitcode_bot'
             bot.api.send_message(chat_id: message.chat.id,
-              text: "Grupo Oficial no Discord 🤘\n👉  https://discord.gg/UBUjmvPdgy")
+              text: "<b>Grupo Oficial no Discord</b> 🤘\n\n👉  https://discord.gg/UBUjmvPdgy",
+              parse_mode: "HTML")
           
           when '/meme', '/meme@onebitcode_bot'
             meme = Meme::send_meme
