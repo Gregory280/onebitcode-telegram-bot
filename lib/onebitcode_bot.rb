@@ -39,6 +39,16 @@ class Bot
               "👉 <a href='https://www.youtube.com/watch?v=EqOoElCjpNI&list=PLdDT8if5attHadvt0bVyW6TaQvD4c64xn'>API Rails Completa</a>", 
               parse_mode: "HTML", disable_web_page_preview: true)
           
+          when '/about', '/about@onebitcode_bot'
+            bot.api.send_message(chat_id: message.chat.id,
+              text: "Bot made by <b>Gregory Mayer<b/> for the OneBitCode Community 🤖\n\n👉 <a href='https://github.com/Gregory280/onebitcode-telegram-bot'>Github Repository</a>\n",
+              parse_mode: "HTML",
+              disable_web_page_preview: true)
+          
+          when '/discord', '/discord@onebitcode_bot'
+            bot.api.send_message(chat_id: message.chat.id,
+              text: "Grupo Oficial no Discord 🤘\n👉  https://discord.gg/UBUjmvPdgy")
+          
           when '/meme', '/meme@onebitcode_bot'
             meme = Meme::send_meme
             extension = meme.split('.')[1]
