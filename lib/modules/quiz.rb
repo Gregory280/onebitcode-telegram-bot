@@ -2,10 +2,10 @@ require 'json'
 
 module Quiz
   
-  file_quiz = File.read('quiz.json')
+  file_quiz = File.read('public/quiz.json')
   QUIZES = JSON.parse(file_quiz)
   @@lastests_quizes = []
-
+  puts file_quiz
   def self.send_quiz
     
     quiz = QUIZES.sample
