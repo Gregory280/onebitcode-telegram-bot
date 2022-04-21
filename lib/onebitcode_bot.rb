@@ -41,9 +41,8 @@ class Bot
           
           when '/about', '/about@onebitcode_bot'
             bot.api.send_message(chat_id: message.chat.id,
-              text: "Bot made by <b>Gregory Mayer<b/> for the OneBitCode Community 🤖\n\n👉 <a href='https://github.com/Gregory280/onebitcode-telegram-bot'>Github Repository</a>",
-              parse_mode: "HTML",
-              disable_web_page_preview: true)
+              text: "Bot made by <b>Gregory Mayer</b> for the OneBitCode Community 🤖\n\n👉 <a href='https://github.com/Gregory280/onebitcode-telegram-bot'>Github Repository</a>",
+              parse_mode: "HTML")
           
           when '/discord', '/discord@onebitcode_bot'
             bot.api.send_message(chat_id: message.chat.id,
